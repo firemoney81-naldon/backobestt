@@ -1,23 +1,679 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>2026 스마트 모빌리티 트렌드 리포트 | 리스·렌트 금융 최적화 비교 가이드</title>
+    <meta name="description" content="2026년 개정 세법 및 친환경 모빌리티 트렌드에 최적화된 맞춤형 차량 운용 전략을 제시합니다. 포르쉐 카이엔, 싼타페, 머스탱, 베뉴 등 독보적인 리스/장기렌트 무보증 특가 비교 분석 및 실시간 맞춤형 다이렉트 견적 시스템 안내.">
+    <meta name="keywords" content="포르쉐 카이엔 리스, 장기렌트무보증, 베뉴렌트, 기아자동차리스, 차량월렌트, 싼타페리스, 장기렌트특가, 렌트카비교사이트, 머스탱장기렌트, 자동차신차할부, 장기렌트카리스, 신차장기렌트견적">
+    
+    <!-- Open Graph (SNS 및 네이버 블로그/카페 공유 최적화) -->
+    <meta property="og:title" content="2026 스마트 모빌리티 트렌드 리포트 | 신차 리스·장기렌트">
+    <meta property="og:description" content="단순 소유를 넘어선 전략적 운용의 시대, 2026년 변화된 세무 가이드에 맞춤 설계된 하이엔드 자산 최적화 솔루션을 지금 확인해보세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg">
+    
+    <!-- Tailwind CSS (현대적인 반응형 레이아웃 구성) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#FBF9F6',      /* 매우 포근하고 부드러운 웜 화이트 */
+                            clay: '#F3EDE2',    /* 내추럴한 밝은 베이지 샌드 */
+                            sage: '#8F9E8B',    /* 차분하고 세련된 세이지 그린 */
+                            olive: '#4E5B4B',   /* 신뢰감을 주는 딥 올리브 */
+                            terracotta: '#D0A287', /* 따뜻한 느낌의 악센트 골드 테라코타 */
+                            dark: '#2A3029'     /* 가독성이 극대화된 차콜 크림 */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            background-color: #FBF9F6;
+            color: #2A3029;
+            word-break: keep-all;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px -15px rgba(78, 91, 75, 0.08);
+        }
+    </style>
+
+    <!-- AI 크롤링 및 네이버 검색 최적화를 위한 JSON-LD 구조화 데이터 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "2026 스마트 모빌리티 트렌드 리포트 | 리스·렌트 금융 최적화 비교 가이드",
+      "description": "2026년 개정 세법 및 친환경 모빌리티 트렌드에 최적화된 맞춤형 차량 운용 전략을 제시합니다.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://leasebcary.withusrizz.com"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://leasefcarp.withusrizz.com",
+            "name": "포르쉐 카이엔 리스"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://leasedcari.withusrizz.com",
+            "name": "장기렌트무보증"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://leasebcary.withusrizz.com",
+            "name": "베뉴렌트"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://leaseccars.withusrizz.com",
+            "name": "기아자동차리스"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://leasedcarf.withusrizz.com",
+            "name": "차량월렌트"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://leasefcarr.withusrizz.com",
+            "name": "싼타페리스"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://leaseecarl.withusrizz.com",
+            "name": "장기렌트특가"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://leaseecaro.withusrizz.com",
+            "name": "렌트카비교사이트"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://leaseecarh.withusrizz.com",
+            "name": "머스탱장기렌트"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://leasefcarh.withusrizz.com",
+            "name": "자동차신차할부"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "url": "https://leasedcarg.withusrizz.com",
+            "name": "장기렌트카리스"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "url": "https://leaseccart.withusrizz.com",
+            "name": "신차장기렌트견적"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body class="antialiased selection:bg-brand-sage selection:text-white">
+
+    <!-- 상단 헤더 영역 -->
+    <header class="border-b border-brand-clay/60 bg-white/70 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="text-xl md:text-2xl font-extrabold tracking-tight text-brand-olive flex items-center gap-2">
+                <span class="w-8 h-8 rounded-full bg-brand-sage flex items-center justify-center text-white text-base">M</span>
+                MOBILITY <span class="text-brand-terracotta font-light">2026</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-brand-olive/80">
+                <a href="#category-luxury" class="hover:text-brand-terracotta transition-colors">하이엔드 럭셔리</a>
+                <a href="#category-cost" class="hover:text-brand-terracotta transition-colors">경제성 극대화</a>
+                <a href="#category-utility" class="hover:text-brand-terracotta transition-colors">패밀리 & 컴팩트</a>
+                <a href="#category-digital" class="hover:text-brand-terracotta transition-colors">스마트 견적 솔루션</a>
+            </nav>
+            <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="bg-brand-olive hover:bg-brand-sage text-white text-xs md:text-sm font-bold px-5 py-2.5 rounded-full transition-all duration-300 transform hover:scale-105">
+                실시간 맞춤 컨설팅 신청
+            </a>
+        </div>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="relative overflow-hidden py-16 md:py-28 bg-gradient-to-b from-brand-clay/30 via-transparent to-transparent">
+        <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+            <span class="inline-block bg-brand-sage/20 text-brand-olive text-xs md:text-sm font-bold px-4 py-1.5 rounded-full mb-6">
+                2026 ROADMAP: THE EVOLVING MOBILITY
+            </span>
+            <h1 class="text-3xl md:text-6xl font-extrabold tracking-tight text-brand-dark leading-tight md:leading-snug mb-8">
+                소유에서 경험으로의 혁신,<br>
+                <span class="text-brand-terracotta">2026년 최신 자동차 금융 비즈니스 백서</span>
+            </h1>
+            <p class="text-sm md:text-lg text-brand-olive/80 leading-relaxed max-w-3xl mx-auto mb-10 font-normal">
+                금리 시장의 유동적 변화와 개정된 비용 처리 가이드라인에 완벽하게 대응하십시오. 스마트한 자산 관리를 실현하는 혁신적인 신차 조달 방식과 맞춤형 금융 플랜의 로드맵을 선사합니다.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="bg-brand-terracotta hover:bg-brand-olive text-white font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-brand-terracotta/20 transition-all duration-300">
+                    전 차종 최적가 즉시 조회
+                </a>
+                <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="bg-white hover:bg-brand-clay/40 text-brand-dark font-bold px-8 py-3.5 rounded-xl border border-brand-clay transition-all duration-300">
+                    리스 및 장기렌트 심층 분석
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 메인 컨텐츠 영역 (에디토리얼 레이아웃) -->
+    <main class="max-w-7xl mx-auto px-6 pb-28 space-y-24">
+
+        <!-- CATEGORY 1: 하이엔드 & 퍼포먼스 드라이빙 -->
+        <section id="category-luxury" class="space-y-12">
+            <div class="border-l-4 border-brand-terracotta pl-4">
+                <span class="text-brand-terracotta text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">Luxury & Performance</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-brand-dark">하이엔드 럭셔리 & 퍼포먼스 전략</h2>
+                <p class="text-xs md:text-sm text-brand-olive/70 mt-2">고소득 사업자 및 법인을 위한 전략적 감가상각 및 재무 오프셋 포트폴리오</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+                
+                <!-- Card 1: 포르쉐 카이엔 리스 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg" alt="포르쉐 카이엔 리스 비주얼" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Premium SUV</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer">포르쉐 카이엔 리스</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    2026년형 럭셔리 패밀리 고성능 SUV 세그먼트를 독점적으로 주도하는 포르쉐 카이엔을 소유하는 가장 지혜롭고 기품 있는 방식은 바로 단연 <a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">포르쉐 카이엔 리스</a>라 단언할 수 있습니다. 자산 운용의 트렌드가 고착화된 구매 중심에서 합리적인 장기 경험 가치로 완벽하게 이전함에 따라, <a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">포르쉐 카이엔 리스</a>는 비즈니스 자금 유동성을 보전하려는 영리한 오너들에게 완벽한 자산 설계 기회를 제공합니다.
+                                </p>
+                                <p>
+                                    특히 개인사업자 및 법인사업자 오너들은 세밀하게 세제 조율이 설계된 <a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">포르쉐 카이엔 리스</a> 제도를 통하여 연간 세무 비용 처리를 극대화하여 과표 구간 자체를 낮출 수 있습니다. 이는 고소득 전문직 오너들에게는 한 해의 종합소득세를 합리화하는 압도적인 절세 장치로 기능합니다. 번호판 역시 장기렌트의 하, 허, 호 식별 문자가 아닌 고급스러운 품위를 드러내는 일반 번호판을 사용하기 때문에 대외적인 대인 관계 비즈니스 미팅과 중후한 이미지 구축에서도 타의 추종을 불허하는 심리적 만족을 제공합니다.
+                                </p>
+                                <p>
+                                    감가상각 리스크 역시 완벽하게 헷지할 수 있습니다. 첨단 디바이스 형태의 SDV(소프트웨어 정의 차량)가 고도화된 최신 카이엔 모델의 특성상 향후 수년 후의 잔존가치를 정교하게 보장받는 것은 스마트 드라이버의 필수 전략입니다. 계약 종료 시점에 복잡하게 중고 매각에 매달리지 않고 리스사로의 반납을 손쉽게 결정하여 감가상각 위험에서 완벽하게 독립할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            카이엔 단독 견적 확인하기 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 2: 머스탱장기렌트 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg" alt="포드 머스탱 비주얼" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Muscle Sport</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer">머스탱장기렌트</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    질주 본능을 완벽히 사로잡는 아메리칸 헤리티지 머슬카, 포드 머스탱의 야성적인 엔진 사운드를 마음껏 느끼면서도 가장 똑똑한 비용 지형을 구축하고 싶다면 <a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">머스탱장기렌트</a>가 완벽한 대안입니다. 고성능 쿠페 계열의 스포츠 세그먼트는 높은 연간 종합 보험요율과 급격히 축소되는 중고차 감가 지연율 때문에 순수 매입 방식을 채택하는 데에 상당한 심리적 저항과 막대한 자금 소모가 필수적으로 수반됩니다. 
+                                </p>
+                                <p>
+                                    하지만 <a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">머스탱장기렌트</a>는 개인의 사고 이력이 전면 격리된 렌터카 전용 단체 종합 보험이 체결되므로, 운행 연령대가 비교적 낮아 높은 일반 자동차 보험료에 좌절하던 드라이버라도 극도의 경제성을 바탕으로 프리미엄 주행을 유지해 나갈 수 있습니다. 타이어 파손이나 잦은 코너링 주행 등으로 발생할 수 있는 소모품 정비 유지 비용 역시 별도의 약정 패키지에 정량화하여 편입할 수 있어 계획적 자산 통제에 믿기 힘든 편안함을 기여합니다.
+                                </p>
+                                <p>
+                                    2026년형 머스탱의 혁신적으로 진보된 콕핏 인터페이스를 만끽하다가도 계약이 종료되면 시세 변동을 걱정할 필요 없이 렌트사에 안전히 차량을 반납해 버리면 그만입니다. 목돈을 직접 선납하지 않고 온전히 기회비용을 비즈니스 원천 자금으로 전환하면서도 드림카 버킷리스트를 당당히 실현하고 싶다면 최적화된 <a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">머스탱장기렌트</a>가 정답입니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            머스탱 특가 상품 예약 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 3: 베뉴렌트 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/170811/pexels-photo-112460.jpeg" alt="소형 SUV 현대 베뉴 비주얼" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Urban Compact</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer">베뉴렌트</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    도심 곳곳의 좁은 주차 빌딩과 복잡다단한 서울의 구석진 이면도로 주행을 편안하게 타개해나갈 현대적인 콤팩트 SUV, 베뉴를 설계하는 가장 진보한 방법은 <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">베뉴렌트</a>를 통해 매달 세련된 라이프스타일을 대여받는 일입니다. 사회에 첫 발을 내디딘 사회초년생부터 첫 자취를 시작해 합리적인 지출 체계를 꿈꾸는 가구에 이르기까지 <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">베뉴렌트</a>는 예산의 흔들림 없는 안정을 가져옵니다.
+                                </p>
+                                <p>
+                                    차량을 할부로 무리하게 직접 사들이면 매년 도래하는 매서운 자동차세 정기 고지서와, 연령 한계로 높은 등급이 확정되는 막연한 매월의 보험료 분할 납부에 가계부가 뒤흔들리기 십상입니다. 그러나 지능적으로 매칭된 <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">베뉴렌트</a>를 채택하면 오직 정밀 계약한 일체의 월 렌트비 청구 하나만으로 모든 소모적 비용이 말끔히 통합 해결됩니다. 
+                                </p>
+                                <p>
+                                    혹시라도 발생할 초보 시절의 다양한 도로 접촉 사고 시에도 면책금 단 1회 납부 정책으로 본인부담금 변동이나 차년도 보험요율 보복 할증 따위의 사후 두통 걱정에서 철저히 격리됩니다. 도심 속 활기찬 이동의 자유를 만끽하고 정년 및 라이프의 변화에 맞추어 다음 최신 전기차나 중형 카테고리로 빠르게 뛰어넘고 싶은 얼리어댑터들에게 최적화된 유연한 컴팩트 가이드, 바로 스마트 <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">베뉴렌트</a> 시스템이 독자적인 자유를 약속합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            베뉴 간편 상담 및 물량 선점 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY 2: 비용 극대화 & 리스크 관리 -->
+        <section id="category-cost" class="space-y-12">
+            <div class="border-l-4 border-brand-sage pl-4">
+                <span class="text-brand-sage text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">Cost Optimization</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-brand-dark">비용 최적화 및 유동성 가이드</h2>
+                <p class="text-xs md:text-sm text-brand-olive/70 mt-2">초기 자본을 영(Zero)으로 통제하는 혁신적인 법인/개인 금융 설계 기법</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+
+                <!-- Card 4: 장기렌트무보증 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg" alt="재무 서류 서명 비주얼" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Zero Cash Flow</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer">장기렌트무보증</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    사업 자금을 단 일 푼도 선불용 보증금이나 선납세 항목으로 묶어두고 싶지 않은 극강의 자본 유동성 확보를 지향하신다면 최고의 비즈니스 금융 전략은 역시 단연코 <a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트무보증</a> 컨설팅입니다. 차량 취등록세를 포함하여 차량가의 최대 수십 퍼센트에 육박하는 큰 자본을 인도 전에 먼저 예치하는 것은 투자를 전업으로 삼거나 원자재 구입 회전율이 높은 기업가들에게 뼈아픈 기회손실을 발생시킵니다.
+                                </p>
+                                <p>
+                                    하지만 혁신적으로 심사 문턱이 고도화된 2026년형 <a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트무보증</a>을 활용하신다면 서울보증보험 증권의 영리한 결합 발행이나 자체적인 캐피탈 신용평가 고속 프로세스를 거쳐 단 1만 원도 선행 입금하지 않은 순수한 0원 조건으로 신차 패키지를 안전하게 양수할 수 있게 됩니다.
+                                </p>
+                                <p>
+                                    이는 대외적인 대출 한도를 철저히 깨끗한 대장 상태로 남겨두어 타 금융 자산 투자나 주택 구매 시에 불필요한 DSR(총부채원리금상환비율) 리스크 방해물로 잡히지 않는 엄청난 개인적 신용 혜택을 함께 안겨줍니다. 한 차원 높은 자산 무한 회전 전략의 스마트한 시너지, <a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트무보증</a> 상품으로 완벽한 자본 분배의 진수를 구현해 보시기 바랍니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            무보증 무심사 조건 매칭 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 5: 장기렌트특가 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg" alt="노란 스포츠카 클로즈업" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Hot Promo</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer">장기렌트특가</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    전국의 수많은 주요 캐피탈사들과 유수의 자이언트급 렌트사들의 실시간 선발주 재고와 긴급 자금 회수 물량이 격돌하는 최전선에서, 최상의 헐값 요율 찬스를 노리고 계신다면 반드시 <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트특가</a> 리스트를 상시 주시하셔야 합니다. 대기업 제조 파트너사들과 다이렉트 벌크 단위로 공동 예매 발주를 진행하는 메커니즘 특성상 일반 차량 지점 전시장에서는 어림도 없을 정도의 경이로운 볼륨 할인이 즉각 산출되는데, 그것이 바로 <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트특가</a>의 핵심 메리트입니다.
+                                </p>
+                                <p>
+                                    특히 매달 특정 모델에 집중 배정되어 극적인 마케팅 지원금이 결합하는 <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트특가</a>는 정상 가격표 대비 매월 적게는 수만 원에서 많게는 십만 원이 넘는 엄청난 세이브 폭을 장기적으로 누리게 해 줍니다. 이 차이가 3년에서 5년 약정 기간 동안 수백만 원에 이르는 막대한 지갑 방어 효과로 환원되는 것은 당연지사입니다. 
+                                </p>
+                                <p>
+                                    출고 대기 시간 마저도 극단적으로 축소되어 단 이틀 만에 귀하의 주차장 앞으로 새 차가 무상 이송되는 특급 기회, 지금 열기가 치솟은 고효율 하이브리드 세그먼트와 신형 세단 라인업까지 결합된 전국 종합 <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트특가</a> 대전표를 전격으로 확인하십시오.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            오늘의 특가 한정수량 선점 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 6: 장기렌트카리스 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg" alt="빨간 주행 스포츠카" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Dual Solution</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer">장기렌트카리스</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    "차를 다루는 가장 효과적인 금융의 끝판왕에서 과연 나는 렌트를 탈 것인가 아니면 리스를 탈 것인가?" 이 고민을 풀기 위해 탄생한 맞춤 진단 플랫폼, <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트카리스</a> 빅데이터 대조 포럼에 오신 것을 정성으로 환영합니다. 누군가에게는 신차 장기렌트의 완벽 무결한 메인터넌스 통합 방식이 인생 최고의 편안함을 안겨 주지만, 또 다른 이에게는 고품격 오리지널 번호판과 소중한 과거의 개인 무사고 보험 우대 이력을 계승 보존할 수 있는 리스가 더 압도적인 재무 이득을 제공합니다.
+                                </p>
+                                <p>
+                                    저희 <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트카리스</a> 비교 프로세서는 대충 한두 가지만 비교하고 무리하게 한쪽으로 편입시키는 강요 방식을 지극히 경멸합니다. 고객의 현재 수입 지점과 부가가치세 환급이 가능한 매장 성향(화물차나 경차는 리스 및 렌트 혜택이 상이함), 그리고 매년 희망하는 연간 약정 총 마일리지 거리를 면밀히 크로스 체크하여 공학적이고 정량화된 수치 분석 보고서로 양쪽의 정밀 견적 비용 편차를 낱낱이 해부해 보입니다.
+                                </p>
+                                <p>
+                                    나의 주행 습관과 재정 포트폴리오를 가장 이상적으로 보장받는 최적의 양대 선택, 이제 과학적 <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">장기렌트카리스</a> 심층 컨설팅과 정밀 대조하여 후회 제로의 품격을 완수하십시오.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            렌트 vs 리스 심층 매칭 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY 3: 패밀리카 & 볼륨 세그먼트 -->
+        <section id="category-utility" class="space-y-12">
+            <div class="border-l-4 border-brand-olive pl-4">
+                <span class="text-brand-olive text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">Family & Practical Life</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-brand-dark">패밀리 & 실용 라이프스타일 콕핏</h2>
+                <p class="text-xs md:text-sm text-brand-olive/70 mt-2">일상을 더욱 윤택하고 격조 있게 만드는 베스트셀러 SUV 및 기아 주력 패키지</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+
+                <!-- Card 7: 기아자동차리스 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg" alt="현대적인 SUV 주행 컷" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Kia Selection</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer">기아자동차리스</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    카니발, 쏘렌토, 스포티지 하이브리드, 그리고 미래의 전동화 시장을 주도적으로 견인하는 EV 시리즈까지 완벽에 가까운 볼륨 디자인으로 시장을 리드하는 기아의 신형 명차를 가장 품위 있고 똑똑하게 소유하는 필승 금융 카드는 <a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">기아자동차리스</a>입니다. 할부 원금과 누적 채무액이 은행 연합회의 총부채 한도에 한 움큼 잡히는 불편한 소유 구조를 피해, 완전무결한 오프 밸런스 금융의 혜택을 온전히 전수받을 기회가 여기에 열려 있습니다.
+                                </p>
+                                <p>
+                                    세무 관리가 절실히 요구되는 대다수의 개인사업자 및 정밀 세입 회계 관리를 요하는 법인 임직원 차량의 경우, <a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">기아자동차리스</a> 플랜을 거쳐 월 임대 요금 일체를 안전하게 손비 처리해 매년 종합소득세 절세를 합리적으로 극대화할 수 있습니다. 
+                                </p>
+                                <p>
+                                    중고차 매각 프로세스의 골치 아픈 사후 감정 스트레스 역시 깔끔하게 생략된 채, 오롯이 차량 계약 만료와 동시에 리스사에 반납을 신청하면 전담 탁송 엔지니어가 직접 회수하여 현장 인수 또는 반납의 결정을 현명하게 종결해 드립니다. 세련된 신형 기아 모델을 가장 기품 있게 타는 현자의 제안, 바로 공인된 <a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">기아자동차리스</a>를 적극 권장해 드립니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            기아 전 차종 즉시출고 리스트 확인 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 8: 싼타페리스 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/244553/pexels-photo-244553.jpeg" alt="오프로드 위 SUV" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Ultimate Family SUV</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer">싼타페리스</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    도심을 넘어 장엄한 대자연으로의 주말 차박 라이프와 아이들과 함께 숨 쉬는 드넓은 패밀리 공간을 완벽하게 충족시켜 줄 싼타페를 오직 본인의 품격 그대로 소유하는 드림 트랙, 바로 특별히 준비된 <a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">싼타페리스</a> 프로그램을 제안합니다. 정통 오프로드 SUV를 계승하여 널찍한 박스 형태의 실내 체적과 극강의 편의성을 자랑하는 싼타페 하이브리드 및 신형 모델은 패밀리카 구매 경쟁의 치열한 병목 구간에 직면해 있습니다.
+                                </p>
+                                <p>
+                                    대기 시간의 긴 터널을 빠르게 돌파하고 싶은 현명한 가장분들이라면, 렌트와 달리 나만의 자랑스러운 운전 경력과 다이렉트 자차 특약의 혜택을 고스란히 영위할 수 있는 <a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">싼타페리스</a>가 단연 신의 한 수가 됩니다. 명의 자체도 금융 리스 기관의 관리하에 배정되어 국민건강보험공단의 소득 자산 합산 합계 추적 고지서나 재산세 연동 상승 압박에서 지혜롭게 빗겨 가므로 가계 경제의 탄탄한 방어를 확실하게 보강받습니다. 
+                                </p>
+                                <p>
+                                    내 차처럼 타면서 세무/재무적 품위를 우아한 일반 등록 번호판으로 보전받는 방법, <a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">싼타페리스</a> 최고의 스마트 서포트를 지금 신속히 마주해 보시기 바랍니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            싼타페 패밀리 패키지 견적신청 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 9: 차량월렌트 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg" alt="도로 위 멋진 드라이빙 컷" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Flexible Month</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer">차량월렌트</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    3년 혹은 5년이라는 아득하게 긴 약정 의무 기한에 내 소중한 자산 유연성을 통째로 저당잡히고 싶지 않은 얼리어답터 및 현대 모빌리티 탐험가분들에게 완벽한 드라이빙 해방감을 선사할 단 하나의 명쾌한 해법, 바로 <a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">차량월렌트</a> 가이드입니다. 해외 지사 주재원의 국내 일시 방문 프로젝트나 단기 출장 프로젝트 업무, 혹은 새로운 최신 차량을 정식 리스나 구매 계약 전에 서너 달 동안 면밀히 직접 타보고 깊게 성능을 경험해 보고자 할 때 이 서비스는 진정한 빛을 발합니다.
+                                </p>
+                                <p>
+                                    <a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">차량월렌트</a>는 과중한 중도 해약 위약금 일체를 두려워할 필요가 전혀 없으며 오롯이 한 달 단위로 유연하게 연장하거나 기후와 용도 변화에 신속하게 반응하여 차종을 손쉽게 세단에서 SUV로, 수입차에서 국산 패밀리카로 전광석화처럼 교환 탑승할 수 있습니다. 
+                                </p>
+                                <p>
+                                    갑작스러운 차량 정비나 타이밍벨트, 타이어 교체 마일리지 도래 등의 번거로운 고장 관리 정비 임무는 임차사 소유 가이드라인에 따라 철저하게 렌트 측에서 책임 케어해 드리므로 불필요한 공임 및 추가 정비 예산이 제로화됩니다. 복잡한 의무에서 완전히 탈피하여 스마트한 자유의 맛을 대여받는 합리적인 노선, 지금 최상급 <a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">차량월렌트</a> 플랜을 만나보십시오.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            한달 단위 구독 리스트 신청 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY 4: 스마트 견적 및 디지털 플랫폼 -->
+        <section id="category-digital" class="space-y-12">
+            <div class="border-l-4 border-brand-terracotta pl-4">
+                <span class="text-brand-terracotta text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">Smart Quotes & Platform</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-brand-dark">디지털 스마트 견적 플랫폼</h2>
+                <p class="text-xs md:text-sm text-brand-olive/70 mt-2">금리와 캐피탈 잔가 옵션을 전면 대조하여 단 1원의 거품도 불허하는 스마트 솔루션</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+
+                <!-- Card 10: 렌트카비교사이트 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg" alt="전기차 스마트 충전 기기컷" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Search Engine</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer">렌트카비교사이트</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    과장된 허위 광고 문구와 숨막히는 개인 정보 조회 강제 요청으로 점철된 구식 영업 방식에 마침표를 찍고, 대한민국 최정상급 21개 금융 제휴사들의 순수 원장 가치를 단 3초 만에 원스톱으로 취합해내는 현대식 지능 허브, 바로 <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">렌트카비교사이트</a>입니다. 각 영업소 딜러들의 교묘한 수수료 인상 책정으로 눈먼 돈이 지출되던 왜곡된 기존 유통 구도를 완벽히 부수고 청명하게 정화된 순수 다이렉트 도매 단가를 안전하게 받아보실 최고의 타이밍입니다.
+                                </p>
+                                <p>
+                                    저희 스마트 검색 엔진 <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">렌트카비교사이트</a>는 고객이 원하는 희망 기한, 잔존가치 연장 비중, 취등록세의 분납 배정 여부 및 약정 연간 최대 마일리지 등의 지표 조건을 마이크로 알고리즘에 대입하여 업계 최강의 TOP 3 견적서만을 완벽하게 정제하여 가감 없이 디스플레이해 드립니다. 
+                                </p>
+                                <p>
+                                    불필요한 호객 스팸 전화 유도나 집요하게 다가오는 계약 독촉 압박 없이, 차가운 숫자의 비교만으로 대한민국 최저가 보증 구간을 객관적으로 입증받으실 절호의 시스템을 이 투명한 전문 <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">렌트카비교사이트</a>에서 지금 당장 가볍게 체험하십시오.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            21개 캐피탈 최저가 비교 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 11: 자동차신차할부 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg" alt="전시장 속 고급 신차" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Traditional Finance</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer">자동차신차할부</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    타인의 명의를 거치는 일말의 금융 조건도 피하고 완연히 귀하의 개인 소유 대장에 완벽한 내 차로만 등록하여 기간 마일리지 제약이나 반납 고민의 규정 없이 무한한 장기 사용을 보장받으실 우량 운전자분들을 위한 정밀 가이드북, 바로 <a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">자동차신차할부</a> 금융 다이렉트 비서입니다. 신용 상태가 최상급이고 적정 수준 이상의 든든한 초기 선수금을 상환할 능력을 비축하고 계신 드라이버분들에게 원리금 이자 분할 상환은 가장 굳건하고 전통적인 정석 루트입니다.
+                                </p>
+                                <p>
+                                    하지만 <a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">자동차신차할부</a>를 멍청하게 차량 브랜드 대리점에서 던져주는 고착화된 메인 캐피탈사에 그저 수동적으로 대필 서명하시는 일은 결단코 저지하셔야만 합니다. 각 대형 은행권 우대 연계 금리와 신용카드사의 연말 캐시백 보너스, 그리고 메이저 수입사들의 긴급 프로모션 감면 조항까지 포함된 실시간 가치를 낱낱이 대조해야 연간 무분별한 금융 비용 유출을 원천에 막아낼 수 있습니다.
+                                </p>
+                                <p>
+                                    부채 총액 가치가 한층 가벼워지고 중도 상환 수수료 면제 옵션까지 깔끔하게 설계되는 매칭 제안, 신뢰할 만한 <a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">자동차신차할부</a> 정밀 컨설턴트와의 만남으로 기분 좋은 전액 양수 계약의 승리를 확실히 매듭지어 보시기 바랍니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            할부 최적 금리 계산해보기 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 12: 신차장기렌트견적 -->
+                <article class="bg-white rounded-3xl overflow-hidden border border-brand-clay/40 editorial-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden group h-52">
+                            <img src="https://images.pexels.com/photos/7144186/pexels-photo-7144186.jpeg" alt="현대적인 디지털 기기와 자동차 내부" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-brand-olive text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Direct Calculation</span>
+                        </div>
+                        <div class="p-6 md:p-8 space-y-4">
+                            <h3 class="text-lg md:text-xl font-extrabold text-brand-dark hover:text-brand-terracotta transition-colors">
+                                <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer">신차장기렌트견적</a>
+                            </h3>
+                            <div class="text-brand-olive/80 text-xs md:text-sm leading-relaxed space-y-3 font-normal">
+                                <p>
+                                    신차 출고 결정을 드디어 다지신 순간, 한 푼의 유통 마진 버블도 허투루 버리지 않고 완벽하게 세이브된 극강의 콤팩트 가성비를 완성하는 마지막 마일스톤 단계, 바로 신뢰와 투명성이 확보된 <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">신차장기렌트견적</a> 실시간 추출 플랫폼을 가동하는 일입니다. 시중에 떠돌아다니는 기만적인 유령 미끼용 허위 마케팅이나, 선수율을 교묘하게 최대로 끼워 넣어 매월 내는 액수만 거짓되이 저렴해 보이게 왜곡하는 미끼 전술에서 완전히 해방되실 절대 안전 구간을 여기에 보장해 드립니다.
+                                </p>
+                                <p>
+                                    저희 <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">신차장기렌트견적</a> 자동 산정기 서비스는 고객님이 정교하게 선택하시는 트림의 기어 노브 스타일, 휠 인치 업 패키지, 첨단 자율주행 반자율 옵션의 아주 사소한 차이마저 실시간 시스템으로 정량 추적 매칭하여 딜러 마진 수수료가 완전히 제거된 순수한 공장 인도 가액 기준의 견적 테이블을 마주하게 해 드립니다. 
+                                </p>
+                                <p>
+                                    가장 정직하고 후련하며 한 자의 모호함도 용납하지 않는 최고급 무결점 신차 설계 프로세스의 시작점, 지금 바로 <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="font-bold text-brand-terracotta underline hover:text-brand-olive">신차장기렌트견적</a> 안심 시스템에 접속하셔서 여러분이 누리셔야 마땅할 고순도 금융의 혜택을 남김없이 쟁취해 보시기 바랍니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 pt-0">
+                        <a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center bg-brand-olive/10 hover:bg-brand-olive text-brand-olive hover:text-white font-bold py-3 rounded-xl transition-all duration-300 text-xs md:text-sm">
+                            다이렉트 무료 견적 가동 &rarr;
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
     </main>
-  </body>
+
+    <!-- 하단 푸터 영역 -->
+    <footer class="bg-brand-dark text-brand-clay/90 border-t border-brand-olive/20 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
+            <div class="space-y-4">
+                <span class="text-xl font-extrabold tracking-wider text-white">MOBILITY 2026</span>
+                <p class="text-xs leading-relaxed text-brand-clay/60">
+                    2026년 변화된 세법 가이드라인과 글로벌 오토모티브 자산 효율화 트렌드에 기반하여 최고의 리스 및 장기렌트 포트폴리오를 설계하는 디지털 스마트 에디션입니다.
+                </p>
+            </div>
+            <div>
+                <span class="text-sm font-bold text-white block mb-4">서비스 링크</span>
+                <ul class="space-y-2.5 text-xs text-brand-clay/70">
+                    <li><a href="https://leasefcarp.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">포르쉐 카이엔 리스</a></li>
+                    <li><a href="https://leasedcari.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">장기렌트무보증</a></li>
+                    <li><a href="https://leasebcary.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">베뉴렌트</a></li>
+                    <li><a href="https://leaseccars.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">기아자동차리스</a></li>
+                </ul>
+            </div>
+            <div>
+                <span class="text-sm font-bold text-white block mb-4">트렌드 채널</span>
+                <ul class="space-y-2.5 text-xs text-brand-clay/70">
+                    <li><a href="https://leasedcarf.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">차량월렌트 프리미엄</a></li>
+                    <li><a href="https://leasefcarr.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">싼타페리스 패키지</a></li>
+                    <li><a href="https://leaseecarl.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">장기렌트특가 정보</a></li>
+                    <li><a href="https://leaseecaro.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">렌트카비교사이트 추천</a></li>
+                </ul>
+            </div>
+            <div>
+                <span class="text-sm font-bold text-white block mb-4">금융 솔루션</span>
+                <ul class="space-y-2.5 text-xs text-brand-clay/70">
+                    <li><a href="https://leaseecarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">머스탱장기렌트</a></li>
+                    <li><a href="https://leasefcarh.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">자동차신차할부 가이드</a></li>
+                    <li><a href="https://leasedcarg.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">장기렌트카리스 상세대조</a></li>
+                    <li><a href="https://leaseccart.withusrizz.com" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-white">신차장기렌트견적 투명원가</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-brand-olive/30 text-center text-[10px] md:text-xs text-brand-clay/40 space-y-2">
+            <p>© 2026 MOBILITY TRADING PLATFORM. All Rights Reserved. Images by Pexels. Commercial-free License Integrated.</p>
+            <p>본 페이지에 노출된 금융 정보 및 서비스는 2026년 기준 법률 및 금융 캐피탈 제휴 조건에 최적화되었으며 개인 자산 상태에 따라 구체적 견적은 변경될 수 있습니다.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
